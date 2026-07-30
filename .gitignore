@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Runtime data (regenerated automatically, not source)
+logs/*.log
+vector_db/
+.deepeval/
+
+# Evaluation run outputs (regenerate via evaluation/run_deepeval.py)
+evaluation/reports/*.json
